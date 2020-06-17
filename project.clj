@@ -7,7 +7,7 @@
          :auto-reload? true
          :auto-refresh? false}
   :dependencies [[org.clojure/clojure "1.10.1"]
-                 [ring "1.8.0"]
+                 [ring "1.8.1"]
                  [hiccup "1.0.5"]
                  [compojure "1.6.1"]]
   :repl-options {:init-ns basic-clojure-web.core})

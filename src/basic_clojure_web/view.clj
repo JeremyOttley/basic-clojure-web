@@ -4,7 +4,9 @@
  (defn index []
   (html5
     [:html
-     [:head]
+     [:head
+          (include-css "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css")
+          (include-js "http://code.angularjs.org/1.2.3/angular.min.js")]
      [:body "Welcome to My Homepage!"]]))
  
 (defn page-not-found []
