@@ -9,5 +9,7 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [ring "1.8.1"]
                  [hiccup "1.0.5"]
-                 [compojure "1.6.1"]]
+                 [compojure "1.6.2"]
+                 [clj-http "3.10.2"]
+                 [cheshire "5.10.0"]]
   :repl-options {:init-ns basic-clojure-web.core})
